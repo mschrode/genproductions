@@ -20,7 +20,10 @@ set spinmode none          # Use one of the madspin special mode
 set max_weight_ps_point 400  # number of PS to estimate the maximum for each event
 
 # specify the decay for the final state particles
-decay h2 > t t~, ( t > w+ b, w+ > l+ vl ), ( t~ > w- b~, w- > l- vl~ )
+define f = u c d s u~ c~ d~ s~ ve vm vt e- mu- ta- ve~ vm~ vt~ e+ mu+ ta+
+define l+ = e+ mu+
+define l- = e- mu-
+decay h2 > t t~, ( t > w+ b, w+ > f f ), ( t~ > w- b~, w- > f f )
 decay z > l+ l-
 # running the actual code
 launch
