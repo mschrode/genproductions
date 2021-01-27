@@ -1,0 +1,7 @@
+set param_card frblock 1 1.500000e+00 # tanbeta 
+set param_card frblock 2 9.900000e-01 # sinbma 
+
+set param_card mass 25 125.0 # h1 (h boson)
+set param_card mass 35 HMASS # h2 (H boson)
+set param_card mass 36 AMASS # h3 (A boson)
+set param_card mass 36 AMASS # hc (charged H boson)
