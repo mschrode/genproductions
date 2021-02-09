@@ -64,8 +64,8 @@
  -1 = dynamical_scale_choice ! Choose one (or more) of the predefined
            ! dynamical choices. Can be a list; scale choices beyond the
            ! first are included via reweighting
- 0.5  = muR_over_ref  ! ratio of current muR over reference muR
- 0.5  = muF_over_ref  ! ratio of current muF over reference muF
+ 1.0  = muR_over_ref  ! ratio of current muR over reference muR
+ 1.0  = muF_over_ref  ! ratio of current muF over reference muF
 #*********************************************************************** 
 # Reweight variables for scale dependence and PDF uncertainty          *
 #***********************************************************************
