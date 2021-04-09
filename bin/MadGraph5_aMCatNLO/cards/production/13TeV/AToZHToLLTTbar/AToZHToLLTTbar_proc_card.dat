@@ -14,4 +14,4 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 import model 2HDMtII_NLO
 generate g g > h3 > h2 z [QCD]
-output AToZHToLLTTbar -nojpeg
+output AToZHToLLTTbar_mA700_mH400 -nojpeg
