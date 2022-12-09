@@ -6,5 +6,5 @@ set complex_mass_scheme False
 
 import model 2HDMtII_NLO 
 generate p p > h3 > h2 z [QCD]
-output AZHToLLtt -nojpeg
+output AZHToNuNutt -nojpeg
 
