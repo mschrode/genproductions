@@ -26,8 +26,8 @@ do
         # Modify mass parameter
         sed -i "s/AMASS/"$MA".0/g" $newdir/"$prefix"_customizecards.dat
         sed -i "s/HMASS/"$MH".0/g" $newdir/"$prefix"_customizecards.dat
-        sed -i "s/HWIDTH/"$WidthA"/g" $newdir/"$prefix"_customizecards.dat
-        sed -i "s/AWIDTH/"$WidthH"/g" $newdir/"$prefix"_customizecards.dat
+        sed -i "s/AWIDTH/"$WidthA"/g" $newdir/"$prefix"_customizecards.dat
+        sed -i "s/HWIDTH/"$WidthH"/g" $newdir/"$prefix"_customizecards.dat
         sed -i "s/lambda2/"$lambda2"/g" $newdir/"$prefix"_customizecards.dat
         sed -i "s/lambda3/"$lambda3"/g" $newdir/"$prefix"_customizecards.dat
 
